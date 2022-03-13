@@ -57,10 +57,13 @@
         $number = 0;
         $number += 1; // Increment $number by 1
         echo $number++; // Prints 1 and adds 1 to it
-        $number /= $float; // Divide and assign the quotient to $number
+        // $number /= $float; // Divide and assign the quotient to $number
 
-        $apples = "I have {$number} apples to eat today."
+        $apples = "I have {$number} apples to eat today.";
 
+        // Arrays
+        $cars = array('Bmw', 'Mercedes', 'Audi');
+        echo "I like cars " . $cars[2] . " is it good?";
 
     
     ?>
